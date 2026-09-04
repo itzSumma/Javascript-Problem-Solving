@@ -18,3 +18,9 @@ function celsiusToFahrenheit(celsius) {
 
 console.log(celsiusToFahrenheit(0)); // 32
 console.log(celsiusToFahrenheit(100)); // 212
+//Problem 04: Calculate Rectangle Area
+function rectangleArea(length, width) {
+  return length * width;
+}
+
+console.log(rectangleArea(10, 5)); // 50
