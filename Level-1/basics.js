@@ -24,3 +24,9 @@ function rectangleArea(length, width) {
 }
 
 console.log(rectangleArea(10, 5)); // 50
+//Problem 05: Calculate Simple Interest
+function simpleInterest(principal, rate, time) {
+  return (principal * rate * time) / 100;
+}
+
+console.log(simpleInterest(1000, 5, 2)); // 100
