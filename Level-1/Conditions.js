@@ -1,4 +1,4 @@
-// Check Even or Odd
+// Problem-1:Check Even or Odd
 function checkEvenOdd(number) {
   if (number % 2 === 0) {
     return "Even";
@@ -10,7 +10,7 @@ function checkEvenOdd(number) {
 console.log(checkEvenOdd(10)); // Even
 console.log(checkEvenOdd(11)); // Odd
 
-//Check Positive, Negative or Zero
+//Problem-2:Check Positive, Negative or Zero
 function checkNumber(number) {
   if (number > 0) {
     return "Positive";
@@ -25,7 +25,7 @@ console.log(checkNumber(-5)); // Negative
 console.log(checkNumber(5)); // Positive
 console.log(checkNumber(0)); // Zero 
 
-//Find Largest of Two Numbers
+//Problem-3: Find Largest of Two Numbers
 function findLargest(a, b) {
   if (a > b) {
     return a;
@@ -35,7 +35,7 @@ function findLargest(a, b) {
 }
 
 console.log(findLargest(20, 15)); // 20
-//Find Largest of Three Numbers
+//Problem-4: Find Largest of Three Numbers
 function findLargest(a, b, c) {
   if (a >= b && a >= c) {
     return a;
@@ -48,7 +48,7 @@ function findLargest(a, b, c) {
 
 console.log(findLargest(10, 25, 15)); // 25 
 
-//Check Voting Eligibility
+//Problem-5: Check Voting Eligibility
 function canVote(age) {
   if (age >= 18) {
     return "Eligible";
