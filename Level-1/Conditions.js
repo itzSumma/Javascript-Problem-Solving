@@ -35,3 +35,15 @@ function findLargest(a, b) {
 }
 
 console.log(findLargest(20, 15)); // 20
+//Find Largest of Three Numbers
+function findLargest(a, b, c) {
+  if (a >= b && a >= c) {
+    return a;
+  } else if (b >= a && b >= c) {
+    return b;
+  }
+
+  return c;
+}
+
+console.log(findLargest(10, 25, 15)); // 25 
