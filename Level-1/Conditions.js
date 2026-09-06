@@ -23,4 +23,15 @@ function checkNumber(number) {
 
 console.log(checkNumber(-5)); // Negative
 console.log(checkNumber(5)); // Positive
-console.log(checkNumber(0)); // Zero    
+console.log(checkNumber(0)); // Zero 
+
+//Find Largest of Two Numbers
+function findLargest(a, b) {
+  if (a > b) {
+    return a;
+  }
+
+  return b;
+}
+
+console.log(findLargest(20, 15)); // 20
