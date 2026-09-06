@@ -47,3 +47,15 @@ function findLargest(a, b, c) {
 }
 
 console.log(findLargest(10, 25, 15)); // 25 
+
+//Check Voting Eligibility
+function canVote(age) {
+  if (age >= 18) {
+    return "Eligible";
+  }
+
+  return "Not Eligible";
+}
+
+console.log(canVote(20)); // Eligible
+console.log(canVote(17)); // Not Eligible
