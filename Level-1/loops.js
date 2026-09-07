@@ -16,3 +16,13 @@ function printEvenNumbers(n) {
 }
 
 printEvenNumbers(10);
+//Sum of 1 to N
+function sumNumbers(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+console.log(sumNumbers(5));
