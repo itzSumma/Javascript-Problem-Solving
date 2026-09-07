@@ -34,3 +34,16 @@ function multiplicationTable(number) {
 }
 
 multiplicationTable(5);
+//Count Digits
+function countDigits(number) {
+  let count = 0;
+
+  while (number > 0) {
+    number = Math.floor(number / 10);
+    count++;
+  }
+
+  return count;
+}
+
+console.log(countDigits(12345)); // 5
