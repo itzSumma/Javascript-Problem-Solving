@@ -26,3 +26,11 @@ function sumNumbers(n) {
 }
 
 console.log(sumNumbers(5));
+//Multiplication Table
+function multiplicationTable(number) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${number} x ${i} = ${number * i}`);
+  }
+}
+
+multiplicationTable(5);
