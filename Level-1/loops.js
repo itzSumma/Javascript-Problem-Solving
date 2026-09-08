@@ -60,3 +60,17 @@ function countDigits(number) {
 }
 
 console.log(countDigits(12345)); // 5
+//Check Prime Number
+function reverseNumber(number) {
+  let reversed = 0;
+
+  while (number > 0) {
+    let digit = number % 10;
+    reversed = reversed * 10 + digit;
+    number = Math.floor(number / 10);
+  }
+
+  return reversed;
+}
+
+console.log(reverseNumber(1234)); // 4321
