@@ -47,3 +47,16 @@ function countDigits(number) {
 }
 
 console.log(countDigits(12345)); // 5
+//Reverse a Number
+function countDigits(number) {
+  let count = 0;
+
+  while (number > 0) {
+    number = Math.floor(number / 10);
+    count++;
+  }
+
+  return count;
+}
+
+console.log(countDigits(12345)); // 5
