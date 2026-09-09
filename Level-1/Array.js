@@ -25,3 +25,46 @@ function findLargest(numbers) {
 }
 
 console.log(findLargest([10, 5, 25, 8])); // 25
+
+//Find Smallest Number
+function findSmallest(numbers) {
+  let smallest = numbers[0];
+
+  for (const number of numbers) {
+    if (number < smallest) {
+      smallest = number;
+    }
+  }
+
+  return smallest;
+}
+
+console.log(findSmallest([10, 5, 25, 8])); // 5
+
+//Count Even Numbers
+function countEvenNumbers(numbers) {
+  let count = 0;
+
+  for (const number of numbers) {
+    if (number % 2 === 0) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countEvenNumbers([1, 2, 4, 7, 8])); // 3
+function countEvenNumbers(numbers) {
+  let count = 0;
+
+  for (const number of numbers) {
+    if (number % 2 === 0) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countEvenNumbers([1, 2, 4, 7, 8])); // 3
