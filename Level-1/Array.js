@@ -68,3 +68,17 @@ function countEvenNumbers(numbers) {
 }
 
 console.log(countEvenNumbers([1, 2, 4, 7, 8])); // 3
+
+// Reverse an Array
+function reverseArray(numbers) {
+  let reversed = [];
+
+  for (let i = numbers.length - 1; i >= 0; i--) {
+    reversed.push(numbers[i]);
+  }
+
+  return reversed;
+}
+
+console.log(reverseArray([1, 2, 3, 4]));
+// [4, 3, 2, 1]
