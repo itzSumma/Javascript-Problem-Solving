@@ -97,3 +97,17 @@ function countVowels(text) {
 }
 
 console.log(countVowels("javascript")); // 3
+
+//Check Palindrome
+function isPalindrome(text) {
+  let reversed = "";
+
+  for (let i = text.length - 1; i >= 0; i--) {
+    reversed += text[i];
+  }
+
+  return text === reversed;
+}
+
+console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("hello")); // false
