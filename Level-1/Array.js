@@ -82,3 +82,18 @@ function reverseArray(numbers) {
 
 console.log(reverseArray([1, 2, 3, 4]));
 // [4, 3, 2, 1]
+//Count Vowels
+function countVowels(text) {
+  let count = 0;
+  const vowels = "aeiou";
+
+  for (const char of text.toLowerCase()) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countVowels("javascript")); // 3
